@@ -11,6 +11,10 @@ module.exports={
             .options({ bypassOnDebug: true })
             .end()
         // ============压缩图片 end============
-    }
+    },configureWebpack: {
+        externals: {
+        'AMap': 'AMap'
+        }
+      }
 
 }

@@ -7,7 +7,14 @@ import './assets/rem'
 import './assets/reset.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import VueAMap from 'vue-amap';
 import './assets/rem'
+
+Vue.use(VueAMap);
+
+
+
+
 Vue.config.productionTip = false
 Vue.use(particles)
 Vue.use(ElementUI);

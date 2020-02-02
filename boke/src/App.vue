@@ -61,7 +61,7 @@ export default {
     },
   mounted() {
       particlesJS('particles',particles);
-        axios.post("http://47.99.112.162/img").then(res => {
+        axios.post("http://localhost:3000/img").then(res => {
         
         // this.list=res.data.PIC
      this.$store.commit("get",res.data.arr)

@@ -62,11 +62,14 @@ export default {
     referContent() {
       if (this.textConent == "") return alert("请输入内容");
       // 存入
+        this.$emit("getmes",this.textConent)
+        this.$store.dispatch("getarr",this.textConent)
       this.content.push(this.textConent);
       // 清空input数据
       this.textConent = "";
       // 关闭表情列表
       this.faceShow = false;
+    
     }
   },
 };
