@@ -8,9 +8,13 @@ import './assets/reset.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import VueAMap from 'vue-amap';
+import Blob from './assets/excel/Blob'
+import Export2Excel from './assets/excel/Export2Excel.js'
+
 import './assets/rem'
 
 Vue.use(VueAMap);
+
 
 
 

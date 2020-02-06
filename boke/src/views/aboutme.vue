@@ -69,7 +69,7 @@
     }
   }
 </script>
-<style type="text/css">
+<style>
   html,body,#app{
     height: 100%;
     width: 100%;
